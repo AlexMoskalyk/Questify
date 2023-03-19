@@ -1,0 +1,133 @@
+@import "../../styles/variables/variables.scss";
+
+.card__container {
+  width: 260px;
+  height: 290px;
+  background-color: $task-card-bg-color;
+  box-shadow: -3px -4px 4px rgba(21, 57, 90, 0.03),
+    3px 4px 4px rgba(21, 57, 90, 0.03);
+  border-radius: 10px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .card__top_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 21px 0px 21px;
+    margin-bottom: 71px;
+
+    .card__difficulty_wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .card__difficulty_text {
+      font-family: $main-font-family;
+      font-weight: $main-font-weight;
+      font-size: $main-font-size;
+      line-height: $main-font-height;
+      letter-spacing: $main-letter-spacing;
+      color: $main-text-color;
+    }
+
+    .card__complete_text{
+      font-family: $main-font-family;
+      font-weight: $main-font-weight;
+      font-size: $main-font-size;
+      line-height: $main-font-height;
+text-transform: uppercase;
+color: $accent-text-color;
+text-align: center;
+
+    }
+  }
+
+  .card__middle_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 98px;
+
+    .card__quest_text {
+      font-family: $main-font-family;
+      font-weight: $accent-font-weight;
+      font-size: $accent-font-size;
+      line-height: $accent-font-height;
+      text-align: center;
+      color: $accent-text-color;
+      text-transform: uppercase;
+    }
+
+    .card__completeImg{
+      width: 145px;
+      height: 124px;
+    }
+    .card__completeImg_container{
+      width: 144px;
+      height: 124px;
+    }
+  }
+
+  .card__bot_wrapper {
+    padding: 19px 21px 0px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .card__activityArea_wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .card__activityArea_text{
+      font-family: $main-font-family;
+      font-weight: $main-font-weight;
+      font-size: $main-font-size;
+      line-height: $main-font-height;
+      letter-spacing: $main-letter-spacing;
+      color: $main-text-color;
+    }
+  }
+
+  .card__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .hard {
+    background: $hard-dot-color;
+  }
+
+  .normal {
+    background: $normal-dot-color;
+  }
+
+  .easy {
+    background: $easy-dot-color;
+  }
+
+  .work {
+    background: $work-dot-color;
+  }
+
+  .family {
+    background: $family-dot-color;
+  }
+
+  .leisure {
+    background: $leisure-dot-color;
+  }
+
+  .learning {
+    background: $learning-dot-color;
+  }
+
+  .health {
+    background: $health-dot-color;
+  }
+}

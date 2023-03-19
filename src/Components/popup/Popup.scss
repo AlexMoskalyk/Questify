@@ -1,0 +1,125 @@
+@import "../../styles/variables/variables.scss";
+
+.popup__container {
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 10;
+  }
+
+  .btn__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn__text {
+    font-family: $main-font-family;
+    font-weight: $main-font-weight;
+    font-size: $main-font-size;
+    line-height: $main-font-height;
+    letter-spacing: $main-letter-spacing;
+
+    color: $main-text-color;
+  }
+
+  .difficulty_container {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    position: absolute;
+    z-index: 15;
+    top: 16%;
+    left: 35px;
+    padding: 5px 2px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: $main-text-color;
+    background-color: $task-card-bg-color;
+    box-shadow: -3px -4px 4px rgba(21, 57, 90, 0.05),
+      3px 4px 4px rgba(21, 57, 90, 0.05);
+    border-radius: 10px;
+  }
+
+  .activityArea_container {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    position: absolute;
+    z-index: 15;
+    top: 80%;
+    left: 42px;
+    padding: 5px 2px;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: $main-text-color;
+    background-color: $task-card-bg-color;
+    box-shadow: -3px -4px 4px rgba(21, 57, 90, 0.05),
+      3px 4px 4px rgba(21, 57, 90, 0.05);
+    border-radius: 10px;
+    }
+
+   .option_container {
+    display: flex;
+    align-items: center;
+
+    input[type="radio"] {
+      visibility: hidden;
+      height: 0;
+      width: 0;
+    }
+  }
+
+  .option_container:hover,
+  :focus {
+    cursor: pointer;
+    color: $accent-text-color;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .hard {
+    background: $hard-dot-color;
+  }
+
+  .normal {
+    background: $normal-dot-color;
+  }
+
+  .easy {
+    background: $easy-dot-color;
+  }
+
+  .work{
+    background: $work-dot-color;
+  }
+
+  .family{
+    background: $family-dot-color;
+  }
+
+  .leisure{
+    background: $leisure-dot-color;
+  }
+
+  .learning{
+    background: $learning-dot-color;
+  }
+
+  .health{
+    background: $health-dot-color;
+  }
+  
+
+
+}

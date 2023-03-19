@@ -1,0 +1,78 @@
+@import "../../styles/variables/variables.scss";
+
+.createEditCard__container {
+  width: 260px;
+  height: 290px;
+  background-color: $task-card-bg-color;
+  box-shadow: -3px -4px 4px rgba(21, 57, 90, 0.03),
+    3px 4px 4px rgba(21, 57, 90, 0.03);
+  border-radius: 10px;
+
+  .createEditCard__topContainer {
+    padding: 19px 21px 0px 21px;
+    margin-bottom: 71px;
+  }
+
+  .createEditCard__middleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 38px;
+
+    .createEditCard__middleContainer__title {
+      margin-bottom: 15px;
+    }
+  }
+
+  .createEditCard__botContainer {
+    padding: 19px 21px 0px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .createEditCard__btnContainer__cancel {
+      padding-right: 5px;
+      border-right: 1px solid $main-text-color;
+      margin-right: 5px;
+    }
+
+    .createEditCard__btnContainer__createBtn {
+      font-family: $main-font-family;
+      font-weight: $main-font-weight;
+      font-size: $main-font-size;
+      line-height: $main-font-height;
+      text-align: right;
+      text-transform: uppercase;
+      letter-spacing: $main-letter-spacing;
+      color: $accent-color;
+    }
+  }
+
+  .createEditCard__dropdown {
+    border: none;
+    color: $main-text-color;
+    cursor: pointer;
+  }
+
+  .createEditCard__middleContainer__title {
+    font-family: $main-font-family;
+    font-family: "HelveticaNeueCyr";
+    font-weight: $accent-font-weight;
+    font-size: $main-font-size;
+    line-height: $main-line-height;
+    text-align: center;
+    letter-spacing: $main-letter-spacing;
+    text-transform: uppercase;
+    color: $main-text-color;
+  }
+
+  .createEditCard__middleContainer__input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $accent-color;
+    border-color: $accent-color;
+    color: $accent-color;
+    text-transform: uppercase;
+  }
+}
