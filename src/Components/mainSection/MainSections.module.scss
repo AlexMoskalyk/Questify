@@ -1,14 +1,14 @@
 @import "../../styles/variables/variables.scss";
 
 .mainSection__container {
-  padding: 0 25px;
+  padding: 0 10px;
   height: 100vh;
 
   @media screen and (min-width: 768px) {
-    padding: 0 49px;
+    padding: 0 29px;
   }
 
   @media screen and (min-width: 768px) {
-    padding: 0 72px;
+    padding: 0 52px;
   }
 }
