@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Questify/static/css/main.398e0802.css",
+    "main.css": "/Questify/static/css/main.a80848b3.css",
     "main.js": "/Questify/static/js/main.da40d617.js",
     "static/js/787.15a2ddb4.chunk.js": "/Questify/static/js/787.15a2ddb4.chunk.js",
     "static/media/sprite.svg": "/Questify/static/media/sprite.8cd0bf277e2a1d33864e3a1bfed342dd.svg",
     "index.html": "/Questify/index.html",
-    "main.398e0802.css.map": "/Questify/static/css/main.398e0802.css.map",
+    "main.a80848b3.css.map": "/Questify/static/css/main.a80848b3.css.map",
     "main.da40d617.js.map": "/Questify/static/js/main.da40d617.js.map",
     "787.15a2ddb4.chunk.js.map": "/Questify/static/js/787.15a2ddb4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.398e0802.css",
+    "static/css/main.a80848b3.css",
     "static/js/main.da40d617.js"
   ]
 }
